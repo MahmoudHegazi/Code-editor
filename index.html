@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.cont {
+  display: flex;
+}
+.complier {
+
+  height: 800px;
+  width: 50%;
+
+}
+
+.editor {
+  height: 800px;
+  width: 40%;
+  font-size: 18px;
+  display: inline-block;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d1d1d1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.btn {
+  background-color:#23aa21;
+  color: white;
+  padding: 15px;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color:white;
+  color: black;
+  padding: 15px;
+  width: 100px;
+  cursor: pointer;
+   
+}
+  
+}
+</style>
+<body onload="fun()">
+
+
+<form action="{{url_for('compiler')}}" method = "post">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><button type="submit" class="btn">Run</button></li>
+</ul>
+
+<div class="cont">
+
+<div class="complier" id="compiler_id">
+
+</div>
+
+<textarea name="codes" class="editor">
+
+</textarea>
+</div>
+</form>
+
+
+
+</body>
+</html>
