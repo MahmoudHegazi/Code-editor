@@ -1,6 +1,9 @@
 # Code-editor
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
 
+
+!! OMG now It's Copy from HTML pasta 
+
 ## what you need to use it
 *  download and install vagrant and virtual box
 *  download gitbash for windows or use terminal on mac or linux
@@ -17,5 +20,5 @@ My First code editor, It's not professional but still an editor, it can execute 
 *  open browser and write this link 127.0.0.1:5000
 *  write your own code html or js or css or any other frontend-langauge 
 *  Click run and enjoy With Browser
-
+*  Now you can save and check your Code
 
