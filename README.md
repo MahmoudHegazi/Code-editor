@@ -1,4 +1,19 @@
-# Code-editor
+# Code-editor and virtual hosting app
+
+## !before starting Say what is this (read this part):
+who In your Team Can build Code editor and host the submited code temoplate and give the user page it's work like htmlpasta.com
+this is a restfull API and it use Python function to generate random not reapted fake domain and then
+use CRUD (add)(read) to save the sumbited code by user, then I add function with <string var> 
+it will accept the last part in the url as string then search the database with CRUD read and 
+if the user fakedomain name exist in the database it render template contains the submited
+the name of it kinda trick htmp pasta it's like AJAX it's name ends with XML but it can be used with JSON
+ so this will used with any front end code the browser can compile it + this function depnd on the browser
+  so if it can render the template so you can't even visit the web app url or read this topic right now :D
+  read the instractions will help you to understand how to setup the virtual invermont to test the awesome
+  restful API lets starting by clone the repo press the creen button 
+  Tip:(button text color: gonna be changed to red to sure it's right button)
+
+
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
 
 
