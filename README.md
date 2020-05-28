@@ -6,7 +6,7 @@ this is a restfull API and it use Python function to generate random not reapted
 use CRUD (add)(read) to save the sumbited code by user, then I add function with <string var> 
 it will accept the last part in the url as string then search the database with CRUD read and 
 if the user fakedomain name exist in the database it render template contains the submited
-the name of it kinda trick htmp pasta it's like AJAX it's name ends with XML but it can be used with JSON
+code by user it kinda trick htmp pasta it's like AJAX it's name ends with XML but it can be used with JSON
  so this will used with any front end code the browser can compile it + this function depnd on the browser
   so if it can render the template so you can't even visit the web app url or read this topic right now :D
   read the instractions will help you to understand how to setup the virtual invermont to test the awesome
