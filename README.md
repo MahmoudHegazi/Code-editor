@@ -62,7 +62,7 @@ My First code editor, It's not professional but still an editor, it can execute 
 
 
 # you still think it's noob what abo
-<img src="orlik0.PNG">
+<img src="orlik.PNG">
 <img src="orlik1.PNG">
 
 
