@@ -61,7 +61,7 @@ My First code editor, It's not professional but still an editor, it can execute 
 *  Now you can save and check your Code
 
 
-# you still think it's noob what abo
+### you still think it's noob what about this
 <img src="orlik.PNG">
 <img src="orlik1.PNG">
 
