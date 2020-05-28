@@ -81,7 +81,7 @@ def compiler():
         output += ': <a href="http://127.0.0.1:5000/host/' + user_url + '">' + "/host/" + user_url + '</a>'
         fullurl = 'http://127.0.0.1:5000/host/%s' %user_url
         if output:
-            newPage = newUrls(name=user_url, code=output, url=fullurl)
+            newPage = newUrls(name=user_url, code=code, url=fullurl)
             session.add(newPage)        
         flash('Here are Your Link: %s' % newPage.url)
         session.commit()
