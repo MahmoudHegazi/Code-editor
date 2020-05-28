@@ -34,6 +34,9 @@ w3schools editor
 # (How I can Earn from this)
 #### (enjoy your template hosted and you can't edit it (But I can so may I take from you money to edit your hosted template !!!!)
 
+
+
+
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
 
 
@@ -56,4 +59,10 @@ My First code editor, It's not professional but still an editor, it can execute 
 *  write your own code html or js or css or any other frontend-langauge 
 *  Click run and enjoy With Browser
 *  Now you can save and check your Code
+
+
+# you still think it's noob what abo
+<img src="orlik0.PNG">
+<img src="orlik1.PNG">
+
 
