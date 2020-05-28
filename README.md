@@ -34,7 +34,7 @@ w3schools editor
 # (How I can Earn from this)
 #### (enjoy your template hosted and you can't edit it (But I can so may I take from you money to edit your hosted template !!!!)
 
-
++ 1 strange idea : also I can use this to edit others html templates codes by asking them submit your orignal code and write comment or post with what u need or upload images. then You going to recive your code edited after few hours and then pay for the developer.(me for now)
 
 
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
