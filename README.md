@@ -1,7 +1,7 @@
 # Code-editor and virtual hosting app
 
 ## !before starting Say what is this (read this part):
-who In your Team Can build Code editor and host the submited code temoplate and give the user page it's work like htmlpasta.com
+who In your Team Can build Code editor and host the submited code template and give the user page it's work like htmlpasta.com
 this is a restfull API and it use Python function to generate random not reapted fake domain and then
 use CRUD (add)(read) to save the sumbited code by user, then I add function with <string var> 
 it will accept the last part in the url as string then search the database with CRUD read and 
