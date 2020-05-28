@@ -13,6 +13,8 @@ the name of it kinda trick htmp pasta it's like AJAX it's name ends with XML but
   restful API lets starting by clone the repo press the creen button 
 
 
+<img src="myeditor.PNG">
+<img src="w3schools_editor.PNG">
 
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
 
