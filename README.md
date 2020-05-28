@@ -12,8 +12,10 @@ the name of it kinda trick htmp pasta it's like AJAX it's name ends with XML but
   read the instractions will help you to understand how to setup the virtual invermont to test the awesome
   restful API lets starting by clone the repo press the creen button 
 
-
+My editor
 <img src="myeditorr.PNG">
+
+w3schools editor
 <img src="w3schools_editor.PNG">
 
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
