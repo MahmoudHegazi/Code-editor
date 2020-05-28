@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
+<title>Tryit Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+body {
+  margin: 0;
+}
 
 .cont {
   display: flex;
@@ -8,14 +14,18 @@
 .complier {
 
   height: 800px;
-  width: 50%;
-
+  width: 48%;
+  border: 2px solid lightgray;
+  margin-right: 6px;
+  margin-left: 6px;
+  background-color: white;
 }
 
 .editor {
   height: 800px;
-  width: 40%;
+  width: 50%;
   font-size: 18px;
+  border: 2px solid lightgray;
   display: inline-block;
   
 }
@@ -25,7 +35,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d1d1d1;
+  background-color: rgb(240 240 240);
+  display: block;
+  height: 43px;
 }
 
 li {
@@ -36,39 +48,58 @@ li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(230 230 230);
 }
 
 .btn {
-  background-color:#23aa21;
+  background-color: #4CAF50!important;
+  display: block;
+  outline: 0;
+  border: none;
   color: white;
   padding: 15px;
-  width: 100px;
+  width: 80px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 10px;
 }
 
 .btn:hover {
-  background-color:white;
+  opacity: .8;
   color: black;
-  padding: 15px;
-  width: 100px;
+
+
   cursor: pointer;
    
 }
-  
+
+#app_container {
+  background-color: rgb(240 240 240);
 }
+
+  
+
 </style>
 <body onload="fun()">
 
+<div id="app_container">
 
 <form action="{{url_for('compiler')}}" method = "post">
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li class="iconsfont"><a class="active" href="#home"><i class="fa fa-home" style="font-size:33px;color:gray;line-height:16px;"></i></a></li>
+  <li class="iconsfont"><a class="active" href="#home"><i class="fa fa-bars" style="font-size:33px;color:gray;line-height:16px;"></i></a></li>
+  <li class="iconsfont"><a class="active" href="#home"><i class="fa fa-save" style="font-size:33px;color:#999999;line-height:16px;"></i></a></li>
+  <li class="iconsfont"><a class="active" href="#home"><i class="fa fa-spinner fa-spin" style="font-size:33px;color:gray;line-height:16px;"></i></a></li>
+  
+    <li class="iconsfont"><a class="active" href="#home"><i class="fa fa-eye" style="font-size:33px;color:dodgerblue;line-height:16px;"></i></a></li>
   <li><button type="submit" class="btn">Run</button></li>
+  <li></li>
 </ul>
 
 <div class="cont">
@@ -83,7 +114,7 @@ li a:hover {
 </div>
 </form>
 
-
+</div>
 
 </body>
 </html>
