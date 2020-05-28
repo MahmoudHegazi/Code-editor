@@ -11,12 +11,28 @@ the name of it kinda trick htmp pasta it's like AJAX it's name ends with XML but
   so if it can render the template so you can't even visit the web app url or read this topic right now :D
   read the instractions will help you to understand how to setup the virtual invermont to test the awesome
   restful API lets starting by clone the repo press the creen button 
+ 
+ (I discoverd new trick now you can click back button on browser to edit the code and submit it again until i finish AJAX needed 
+ for this point and render the compiled code in the same page)
+ 
+ 
+ 
 
 My editor
 <img src="myeditorr.PNG">
 
 w3schools editor
 <img src="w3schools_editor.PNG">
+
+
+
+# How it works:
+<img src="myapp0.PNG">
+<img src="Myapp1.PNG">
+<img src="enjoy_host.PNG">
+
+# (How I can Earn from this)
+#### (enjoy your template hosted and you can't edit it (But I can so may I take from you money to edit your hosted template !!!!)
 
 My First code editor, It's not professional but still an editor, it can execute HTML, CSS, bootstrab, javascript, and any other front end languages actually it use the browser so it will act like browser with 0 errors
 
