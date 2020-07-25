@@ -17,32 +17,6 @@ which is included with this project.
 
 Base = declarative_base()
 
-
-
-class newUrls(Base):
-    __tablename__ = 'newurls'
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String(350), nullable=False)    
-    code = Column(String(90000), nullable=False)
-    url = Column(String(200), nullable=False)
-    user_id = Column(Integer, =user.id)
-    user = relational
-
-    @property
-    def serialize(self):
-        """Return object data in easily serializeable format"""
-        return {
-            'name': self.name,
-            'id': self.id,
-            'code': self.code,
-            'url': self.url            
-        }
-
-
-
-
-    
 class Users(Base):
     __tablename__ = 'users'
 
@@ -64,6 +38,33 @@ class Users(Base):
             'job': self.job,
             'storage': self.storage
         }
+
+    
+
+class newUrls(Base):
+    __tablename__ = 'newurls'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(350), nullable=False)    
+    code = Column(String(90000), nullable=False)
+    url = Column(String(200), nullable=False)
+    user_id = Column(Integer, ForeignKey('user.id'))
+    user = relationship(User)
+    
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return {
+            'name': self.name,
+            'id': self.id,
+            'code': self.code,
+            'url': self.url            
+        }
+
+
+
+
+    
 
 
 
