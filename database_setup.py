@@ -14,6 +14,7 @@ More details can be found in the README.md file,
 which is included with this project.
 """
 
+#sqlalchemy.orm.query.Query.add_entity(entity, alias=None)
 
 Base = declarative_base()
 
