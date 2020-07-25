@@ -26,6 +26,8 @@ class newUrls(Base):
     name = Column(String(350), nullable=False)    
     code = Column(String(90000), nullable=False)
     url = Column(String(200), nullable=False)
+    user_id = Column(Integer, =user.id)
+    user = relational
 
     @property
     def serialize(self):
@@ -38,6 +40,30 @@ class newUrls(Base):
         }
 
 
+
+
+    
+class Users(Base):
+    __tablename__ = 'users'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(350), nullable=False)    
+    email = Column(String(100), nullable=False)
+    image = Column(String(100))
+    password = Column(String(100))
+    job = Column(String(100))
+    storage = Column(String(100)) 
+    
+    @property
+    def serialize(self):
+        """Return object data in easily serializeable format"""
+        return {
+            'name': self.name,
+            'id': self.id,
+            'image': self.code,
+            'job': self.job,
+            'storage': self.storage
+        }
 
 
 
