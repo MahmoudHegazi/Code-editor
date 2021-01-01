@@ -73,3 +73,4 @@ My First code editor, It's not professional but still an editor, it can execute 
 *  any element with id or class can be edited by scraping the user html page stored in the database for that element return
 * it in textarea to edit then replace that text by first index of the tag and last index or replace old version with edited version easy
 * function added to add some elements to parent and edit the while website index.html or css file or js file.
+* and API to access shared table in the database for use in contact forms 
