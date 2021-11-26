@@ -39,7 +39,8 @@ const codeEditor = document.querySelector("#code_editor");
 const resultContainer = document.querySelector("#result_cont");
 
 let userwriting = "";
-
+let currentpos = 0;
+// 37 l, 39 r, t 38, b 40
 function deleteBackward(auserwriting){
   return auserwriting.substring(0, auserwriting.length-2);
 }
@@ -48,22 +49,52 @@ function deleteForward(){
 }
 
 
-codeEditor.addEventListener("input", function(event) {
+codeEditor.addEventListener("keydown", function(event) {
     // delete letter Backward
-    if (event.inputType == delete_backward) {
-       console.log(userwriting.substring(0, userwriting.length-1));
+    //console.log(event.keyCode);
+    
+    
+    if (event.keyCode == 37) {
+      if (currentpos != 0) {
+       currentpos -= 1;
+      }
+      console.log(currentpos);
+      return true;
+    }
+    
+    if (event.keyCode == 39) {
+      if (currentpos < event.target.innerText.length-1) {
+       currentpos += 1;
+      }
+      console.log(currentpos);
+      return true;
+    }
+    
+    if (event.keyCode == 8) {
+       //console.log(userwriting.substring(0, userwriting.length-1));
        userwriting = userwriting.substring(0, userwriting.length-1);
        resultContainer.innerText = userwriting
+       if (currentpos != 0){
+         currentpos -= 1;
+       }
+       console.log(currentpos);
+       return true;
+    }
+    console.log(currentpos);
+    
+    if (event.inputType == delete_forward) {
+       //console.log("yes");
        return true;
     }
     if (event.keyCode == 8){
     }
     
     //45 8
-    console.log(1);
+   // console.log(1);
     userwriting += event.target.innerText[event.target.innerText.length - 1];
     
 resultContainer.innerText += event.target.innerText[event.target.innerText.length - 1];
+currentpos += 1;
     
 }, false);
 
